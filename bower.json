@@ -1,0 +1,24 @@
+{
+  "name": "fn-plus",
+  "description": "fn+ is a very useful library for functional programming",
+  "main": "src/fn-plus.js",
+  "authors": [
+    "Stefan Wimmer <stefanwimmer128@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "fn-plus",
+    "fn",
+    "function",
+    "functional",
+    "programming"
+  ],
+  "homepage": "https://github.com/stefanwimmer128/fn-plus",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
