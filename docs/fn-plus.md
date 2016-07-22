@@ -1,4 +1,4 @@
-# fn+ 0.1.0 JSDoc
+# fn+ 0.2.0 JSDoc
 <a name="fn"></a>
 
 ## fn : <code>Object</code>
