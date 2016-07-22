@@ -19,10 +19,31 @@
 
 /**
  * fn+ namespace
- * @type {{}}
  * @since 0.1.0
  */
 const fn = {};
+
+/**
+ * Binds a function to predefined args
+ * @param func {function} Function to bind
+ * @param args {Array} Args to predefine
+ * @param [thisArg] {{}} this-Keyword to use
+ * @return {function} Bound function
+ * @since 0.3.0
+ */
+fn.bind = (func, args, thisArg) =>
+    func.bind(thisArg, ...args);
+
+/**
+ * Binds a function to predefined args as last args
+ * @param func {function} Function to bind
+ * @param args {Array} Args to predefine
+ * @param [thisArg] {{}} this-Keyword to use
+ * @since 0.3.0
+ */
+fn.bindLast = (func, args, thisArg) =>
+    (..._args) =>
+        func.call(thisArg, ..._args, ...args);
 
 /**
  * Get fn+ version

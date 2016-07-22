@@ -1,6 +1,6 @@
 {
   "name": "fn-plus",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "fn+ is a very useful library for functional programming",
   "main": "src/fn-plus.js",
   "scripts": {
